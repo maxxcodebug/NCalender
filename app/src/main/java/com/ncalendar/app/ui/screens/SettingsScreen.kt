@@ -218,12 +218,12 @@ fun SettingsScreen(vm: CalendarViewModel) {
             SettingsCard {
                 InfoRow("Version", versionName)
                 Divider()
-                InfoRow("Developer", "Shrijesh")
+                InfoRow("Developer", "Anshuman_X")
             }
 
             Spacer(Modifier.height(28.dp))
             Text(
-                "NCalendar $versionName · for Nothing OS",
+                "Calendar inspired from Nothing OS $versionName · for Nothing_AOSP",
                 color = NColors.textGhostDeep,
                 fontFamily = NFonts.Mono,
                 fontSize = 11.sp,
